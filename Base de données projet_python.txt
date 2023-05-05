@@ -1,0 +1,13 @@
+Base de données "projet_python"
+
+create table utilisateur (
+    id_user varchar(20) primary key not null,
+    Nom varchar(25) not null,
+    Prenom varchar(50) not null,
+    Sexe char not null, 
+    Mail varchar(50) not null,
+    Statut varchar(15)not null,
+    Password varchar(15) not null,
+    contact char(10) not null
+    );
+
